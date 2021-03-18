@@ -6,6 +6,6 @@ node {
   bat "gradlew.bat clean test"
  }
  stage('Deploy') {
-  sh "git push https://git.heroku.com/agile-lake-06850.git"
+  bat 'git push https://git.heroku.com/agile-lake-06850.git'
  }
 }
